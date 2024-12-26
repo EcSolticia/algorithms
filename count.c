@@ -12,7 +12,7 @@ int count(int num)
         for(i = 0; i < num; i++)
             printf("\n%d, \n", i);
             
-        if(i == num + 1)
+        if(i == num)
             printf("]");
     } else
     {
